@@ -3,7 +3,11 @@
     
     
     article {
-        
+    
+		@include breakpoint($medium) {
+		   
+		}	
+    
     } //article
     
 }//#attractions

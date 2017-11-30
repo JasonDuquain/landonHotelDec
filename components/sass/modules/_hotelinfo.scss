@@ -12,15 +12,28 @@
     }
 
     #usefulinfo {
+        @include breakpoint($small) {
+             
+        } 
         
+        @include breakpoint(450px $small) {
+            
+        } //breakpoint
+		
+		
         section {
             @include breakpoint($small) {
                 
             } //breakpoint
             @include breakpoint(450px $small) {
+			
+				&#arrivalinfo {
+                    
+                }
+			
                 &.checklist {
                     
-                        } //checklist
+                } //checklist
             } //breakpoint
 
             h2 {
