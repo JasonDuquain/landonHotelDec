@@ -3,7 +3,9 @@ header {
     
     .fullheight {
         @include backImage("../images/hotel/splash_hotelphoto.jpg");    
-        
+        display: flex;
+        align-items: center;
+        justify-content: center;
     } //.fullheight
     
     .hgroup {
